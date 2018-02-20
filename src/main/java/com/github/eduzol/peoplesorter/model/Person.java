@@ -115,6 +115,13 @@ public class Person {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Person [ssn=" + ssn + ", dateOfBirth=" + dateOfBirth + ", firstName=" + firstName + ", lastName="
+				+ lastName + ", heightIn=" + heightIn + ", weightLb=" + weightLb + "]";
+	}
+	
 	
 	
 
