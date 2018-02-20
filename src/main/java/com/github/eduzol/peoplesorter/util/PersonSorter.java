@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.Map;
 
 import com.github.eduzol.peoplesorter.model.Person;
+import com.github.eduzol.peoplesorter.util.comparator.PersonDobComparator;
+import com.github.eduzol.peoplesorter.util.comparator.PersonHeightComparator;
+import com.github.eduzol.peoplesorter.util.comparator.PersonLastNameComparator;
+import com.github.eduzol.peoplesorter.util.comparator.PersonSsnComparator;
+import com.github.eduzol.peoplesorter.util.comparator.PersonWeightComparator;
 import com.github.eduzol.peoplesorter.util.validator.PersonSorterValidator;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;

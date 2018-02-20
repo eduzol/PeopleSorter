@@ -1,4 +1,4 @@
-package com.github.eduzol.peoplesorter.util;
+package com.github.eduzol.peoplesorter.util.comparator;
 
 import java.util.Comparator;
 
